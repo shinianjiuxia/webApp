@@ -1,0 +1,113 @@
+.pro_search{
+    width: 750px;
+    height:auto;
+    overflow: hidden;
+}
+
+.header{
+    width: 100%;
+    height: 88px;
+    background: #44a11b;
+}
+
+.header .icon-return{
+    font-size: 58px;
+    color: #fff;
+    float: left;
+    margin:16px 40px 16px 22px;
+}
+
+.header .icon-fangdajing{
+    font-size: 28px;
+    position: absolute;
+    left: 130px;
+    top: 30px;
+    color: #999999;
+
+}
+
+.header input{
+    width: 380px;
+    height: 68px;
+    margin-bottom: 20px;
+    background: #fff;
+    float: left;
+    margin: 10px 0px;
+    font-size: 24px;
+    color: #a09d9d;
+    padding-left: 52px;
+    box-sizing: border-box;
+}
+
+.header .btn{
+    width: 99px;
+    height: 68px;
+    margin-left: -5px;
+    background: #aeff8a;
+    font-size: 26px;
+    color: #44a11b;
+    padding-left: 5px;
+}
+
+.header .icon-saoyisao{
+    font-size: 40px;
+    color:#fff;
+    float:left;
+    margin:23px 52px;
+}
+
+.hot{
+    width: 100%;
+    height:92px;
+    border-bottom: 1px dashed #c8c8c8;
+}
+
+.hot h3{
+    color:#44a11b;
+    font-size: 30px;
+    text-indent: 1.5em;
+    padding-top: 25px;
+    
+}
+
+.hot h3 .icon-huo{
+    font-size:50px;
+    color:#ffd919;
+}
+
+
+.footer{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.search{
+    width: 100%;
+}
+
+.search li{
+    font-size:26px;
+    color: #808080;
+    width:25%;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+
+.eliminate{
+    font-size:24px;
+    color: #7d7d7d;
+    width:182px;
+    height:44px;
+    background:#d8d8d8;
+    text-align:center;
+    float: left;
+    line-height: 44px;
+    position: fixed;
+    top: 540px;
+    left: 280px;
+}

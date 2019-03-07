@@ -1,0 +1,316 @@
+.order-main{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+/* .top{
+    width: 100%;
+    height: 88px;
+    background: #44a11b;
+}
+
+.top .icon-return{
+    font-size: 34px;
+    color: #fff;
+    line-height: 88px;
+    margin: 0px 262px 0px 22px;
+}
+
+.top span{
+    font-size: 34px;
+    color:#fff;
+    margin-right: 242px;
+}
+
+.top .icon-xinxi1{
+    font-size: 28px;
+    color: #fff;
+} */
+
+
+.order-main .info{
+    margin: 45px 284px 34px 28px;
+}
+
+.order-main .info .consignee{
+    float: left;
+    font-size: 26px;
+    color: #383030;
+}
+
+.order-main .info .phone{
+    float: left;
+    font-size: 26px;
+    color: #383030;
+    margin-left: 53px;
+}
+
+.order-main .receiver-address{
+    float: left;
+    font-size: 24px;
+    color:#545353;
+    margin:35px 50px 32px 20px;
+}
+
+.order-main .address{
+    border-bottom: 2px solid #e0e0e0;
+    height: 170px;
+}
+
+.order-main .address .icon-icondayu1{
+    font-size: 44px;
+    margin-left: 674px;
+   
+}
+
+.order-main .remarks{
+    float: left;
+    font-size: 20px;
+    color:#434242;
+    margin-left: 21px;
+    margin-top: -44px;
+}
+
+.ShoppingInfo{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    background: #f1f1f1;
+
+}
+
+
+/* 伪类清浮动一般前后都写上 */
+.clear::before{ 
+    content: '';
+    overflow: hidden;
+    height: 0;
+    display: block;
+    clear: both;
+  
+  }
+  /* 伪类清浮动一般前后都写上 */
+  .clear::after{
+      content: '';
+      overflow: hidden;
+      height: 0;
+      display: block;
+      clear: both;
+    }
+  
+  
+  .buypro .img{
+      float: left;
+      margin:15px 20px;
+      width: 210px;
+      height: 210px;
+      line-height: 210px;
+      outline: 1px solid #fff; 
+      text-align: center;
+      background: #fff;
+  }
+  
+  .buypro img{
+      max-height: 100%;
+      max-width: 100%;
+      vertical-align: middle;
+      /* outline: 1px solid #000; 图片加边框 */
+  }
+
+.ShoppingInfo .buypro .describe{
+   
+}
+
+.describe .proname{
+    font-size: 26px;
+    color: #434242;
+    line-height: 35px;
+    padding-top:27px;
+}
+
+.describe .trait{
+    color: #c10101;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.describe .price{
+    color: #cb0000;
+    font-size: 32px;
+}
+
+.describe .postage{
+    font-size: 26px;
+    float: left;
+    width: 77px;
+    height: 39px;
+    line-height:39px;
+    color: #fff; 
+    background: #a70707;
+    text-align: center;
+    margin-top:7px;
+}
+
+.describe .bottom .notice{
+    font-size: 22px;
+    color: #887979;
+    margin-top: 12px;
+    float: left;
+    margin-left: 15px;
+}
+
+.order-main .orderinfo{
+    background: #f1f1f1;
+    margin-bottom:40px;
+}
+
+
+.order-main .orderinfo li{
+    font-size: 26px;
+    color: #434242;
+    margin: 34px 0px 48px 22px;
+
+}
+
+.order-main .orderinfo li span{
+    margin-left:496px;
+}
+
+.order-main .orderinfo li:nth-of-type(1){
+    padding-top: 34px;
+}
+.order-main .orderinfo li:nth-of-type(4){
+    padding-bottom: 34px;
+}
+
+.order-main .orderinfo li:nth-of-type(4) span{
+    color: #a70707;
+}
+
+
+.icon-gou{
+    color: #c50000;
+    font-size:20px;
+}
+
+
+.order-main .payment h3{
+    font-size: 24px;
+    color:#5f5f5f;
+    margin: 30px 0px 14px 20px;
+}
+
+.order-main .payment .bankcard{
+    border: 1px solid #d2d2d2;
+    width:730px;
+    height:60px;
+    margin-left: 10px;
+}
+
+.bankcard img{
+    float: left;
+    padding: 7px 86px 7px 9px;
+}
+
+.bankcard span{
+    font-size:26px;
+    color: #525252;
+    line-height: 60px;
+}
+
+.bankcard .choice{
+    width: 23px;
+    height:23px;
+    border: 1px solid #757575;
+    float: right;
+    margin:18px 19px 18px 0px;
+}
+
+
+
+
+.order-main .payment .wechat {
+    border: 1px solid #d2d2d2;
+    width:730px;
+    height:60px;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+
+.wechat img{
+    float: left;
+    padding: 7px 106px 7px 9px;
+}
+
+.wechat span{
+    font-size:26px;
+    color: #525252;
+    line-height: 60px;
+}
+
+.wechat .choice{
+    width: 23px;
+    height:23px;
+    border: 1px solid #757575;
+    float: right;
+    margin:18px 19px 18px 0px;
+}
+
+
+
+.order-main .payment .alipay {
+    border: 1px solid #d2d2d2;
+    width:730px;
+    height:60px;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+
+.alipay img{
+    float: left;
+    padding: 7px 106px 7px 9px;
+}
+
+.alipay span{
+    font-size:26px;
+    color: #525252;
+    line-height: 60px;
+}
+
+.alipay .choice{
+    width: 23px;
+    height:23px;
+    border: 1px solid #757575;
+    float: right;
+    margin:18px 19px 18px 0px;
+}
+
+/* .order-main .footer{
+    margin-bottom:0px;
+} */
+
+.order-main .footer .num{
+    float: left;
+    color:#525252;
+    font-size: 32px;
+    margin: 40px 0px 0px -155px;
+}
+
+.order-main .footer .num span{
+    color:#c20000;
+    font-size:36px;
+}
+
+ .order-main .footer .payorder{
+    float: left;
+    color:#fff;
+    font-size:36px;
+    width:262px;
+    height:68px;
+    background:#c20000;
+    line-height:68px;
+    text-align:center;
+    margin: 25px 11px 0 240px;
+} 

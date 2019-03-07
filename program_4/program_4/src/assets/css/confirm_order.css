@@ -1,0 +1,201 @@
+.order-main{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.order-main .info{
+    margin: 45px 284px 34px 28px;
+}
+
+.order-main .info .consignee{
+    float: left;
+    font-size: 26px;
+    color: #383030;
+}
+
+.order-main .info .phone{
+    float: left;
+    font-size: 26px;
+    color: #383030;
+    margin-left: 53px;
+}
+
+.order-main .receiver-address{
+    float: left;
+    font-size: 24px;
+    color:#545353;
+    margin:35px 50px 32px 20px;
+}
+
+.order-main .address{
+    border-bottom: 2px solid #e0e0e0;
+    height: 170px;
+}
+
+.order-main .address .icon-icondayu1{
+    font-size: 44px;
+    margin-left: 674px;
+   
+}
+
+.order-main .remarks{
+    float: left;
+    font-size: 20px;
+    color:#434242;
+    margin-left: 21px;
+    margin-top: -44px;
+}
+
+.ShoppingInfo{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 56px;
+    background: #f1f1f1;
+
+}
+/* .ShoppingInfo li{
+    clear: both;
+} */
+
+/* 伪类清浮动一般前后都写上 */
+.clear::before{ 
+  content: '';
+  overflow: hidden;
+  height: 0;
+  display: block;
+  clear: both;
+
+}
+/* 伪类清浮动一般前后都写上 */
+.clear::after{
+    content: '';
+    overflow: hidden;
+    height: 0;
+    display: block;
+    clear: both;
+  }
+
+
+.buypro .img{
+    float: left;
+    margin:15px 20px;
+    width: 210px;
+    height: 210px;
+    line-height: 210px;
+    outline: 1px solid #fff; 
+    text-align: center;
+    background: #fff;
+}
+
+.buypro img{
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    /* outline: 1px solid #000; 图片加边框 */
+}
+
+
+
+.describe .proname{
+    font-size: 26px;
+    color: #434242;
+    line-height: 35px;
+    padding-top:27px;
+}
+
+.describe .trait{
+    color: #c10101;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.describe .price{
+    color: #cb0000;
+    font-size: 32px;
+}
+
+.describe .postage{
+    font-size: 26px;
+    float: left;
+    width: 77px;
+    height: 39px;
+    line-height:39px;
+    color: #fff; 
+    background: #a70707;
+    text-align: center;
+    margin-top:7px;
+}
+
+.describe .bottom .notice{
+    font-size: 22px;
+    color: #887979;
+    margin-top: 12px;
+    float: left;
+    margin-left: 15px;
+}
+
+.order-main .orderinfo{
+    background: #f1f1f1;
+    margin-top: 60px;
+    margin-bottom: 250px;
+}
+
+
+.order-main .orderinfo li{
+    font-size: 26px;
+    color: #434242;
+    margin: 34px 0px 48px 22px;
+
+}
+
+.order-main .orderinfo li span{
+    margin-left:496px;
+}
+
+.order-main .orderinfo li:nth-of-type(1){
+    padding-top: 34px;
+}
+.order-main .orderinfo li:nth-of-type(4){
+    padding-bottom: 34px;
+}
+
+.order-main .orderinfo li:nth-of-type(4) span{
+    color: #a70707;
+}
+
+.order-main .footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.order-main .footer .num{
+    float: left;
+    color:#525252;
+    font-size: 32px;
+    margin-top: 220px;
+    margin-left: 10px;
+}
+
+.order-main .footer .num span{
+    color:#c20000;
+    font-size:36px;
+    float: right;
+    padding-left: 22px;
+}
+
+ .order-main .footer .payorder{
+    float: left;
+    color:#fff;
+    font-size:36px;
+    width:262px;
+    height:68px;
+    background:#c20000;
+    line-height:68px;
+    text-align:center;
+    margin-left: 235px;
+    margin-top: 200px;
+} 

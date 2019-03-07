@@ -1,0 +1,73 @@
+.pay-success{
+    width: 750px;
+    height: auto;
+    overflow: hidden;
+}
+
+.pay-success .top{
+    width: 100%;
+    height: auto;
+    margin-top: 92px;
+}
+
+.top .icon-gou1{
+    color: #44a11b;
+    font-size:150px;
+    margin:auto 298px;
+}
+
+.top h3{
+    font-size:34px;
+    color: #616161;
+    text-align: center;
+    padding: 35px 0px;
+}
+
+.top p{
+    color: #616161;
+    font-size: 26px;
+    text-align: center;
+    line-height:40px;
+}
+
+.pay{
+    width: 750px;
+    margin:37px 194px 44px 194px;
+}
+
+.pay .check{
+    font-size:32px;
+    background:#44a11b;
+    width:360px;
+    height:76px;
+    line-height:76px;
+    color:#fff;
+    text-align: center;
+    margin-bottom:25px;
+}
+
+.pay .buy{
+    font-size:32px;
+    background:#9f9f9f;
+    width:360px;
+    height:76px;
+    line-height:76px;
+    color:#fff;
+    text-align: center;
+}
+
+.hint{
+    margin-left: 24px;
+}
+
+.hint .icon-jingshi{
+    font-size: 22px;
+    color:#9f9f9f;
+    padding-right:32px;
+}
+
+.hint span{
+    color:#909090;
+    font-size:24px;
+    line-height:35px;
+}

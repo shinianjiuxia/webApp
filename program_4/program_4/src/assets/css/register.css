@@ -1,0 +1,115 @@
+/* body {
+    width: 750px;
+    height: 100%;
+    background: #f5f6f8 !important;
+} */
+
+.register{
+    width: 750px;
+    height: 1335px;;
+    background: #f5f6f8;
+} 
+
+.top{
+    width: 100%;
+    height: 88px;
+    background: #44a11b;
+}
+
+.top .icon-return{
+    font-size: 34px;
+    color: #fff;
+    line-height: 88px;
+    margin: 0px 299px 0px 22px;
+}
+
+.top span{
+    font-size: 34px;
+    color:#fff;
+    margin-right: 252px;
+}
+
+.top em{
+    font-size: 24px;
+    color:#fff;
+}
+
+form{
+    margin-left: 40px;
+}
+
+form .number{
+    width:668px;
+    height: 78px;
+    border: 0px;
+    color:#c4c4c4;
+    font-size: 26px;
+    line-height: 78px;
+    margin-top: 76px;
+    padding-left: 28px;
+}
+
+form .code{
+    width:668px;
+    height: 78px;
+    color:#c4c4c4;
+    font-size: 26px;
+    line-height: 78px;
+    margin-top: 40px;
+    padding-left: 28px;
+}
+
+form .verification-code{
+    width:480px;
+    height: 78px;
+    border: 0px;
+    color:#c4c4c4;
+    font-size: 26px;
+    line-height: 78px;
+    margin-top: 40px;
+    padding-left: 28px;
+   
+}  
+
+form button{
+    width: 188px;
+    height: 80px;
+    background: #44a11b;
+    line-height: 78px;
+    font-size: 26px;
+    margin-left: -5px;
+    color: #fff;
+   
+}
+
+form .submit{
+    width: 668px;
+    height: 78px;
+    color:#fff;
+    font-size: 26px;
+    margin-top: 68px;
+    background: #44a11b;
+}
+
+.notice{
+    margin-left: 85px;
+    
+}
+
+.notice .check{
+    width: 30px;
+    height: 30px;
+    margin-top: 22px;
+}
+
+.notice span{
+    font-size: 24px;
+    color: #a3a3a3;
+    margin-top: -30px;
+    display: block;
+    margin-left: 49px;
+}
+
+.notice em{
+    color:#646464;
+}

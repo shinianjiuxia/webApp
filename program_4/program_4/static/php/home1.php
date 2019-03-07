@@ -1,0 +1,2 @@
+
+[{"id":7,"img":"./static/img/tj1.png","title":"本色牛皮包装纸","price":50},{"id":8,"img":"./static/img/tj2.png","title":"斯达包装牛皮纸","price":50},{"id":9,"img":"./static/img/tj3.png","title":"白色包装牛皮纸","price":50},{"id":10,"img":"./static/img/tj4.png","title":"单面牛皮纸","price":50},{"id":11,"img":"./static/img/tj5.png","title":"双面牛皮纸","price":50},{"id":12,"img":"./static/img/tj6.png","title":"印刷牛皮纸","price":50}]
